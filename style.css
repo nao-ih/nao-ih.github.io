@@ -1,0 +1,56 @@
+:root {
+  --accent: #744EC2;
+  --accent-soft: #F1ECFB;
+  --text: #1C1B1F;
+  --muted: #5F5B66;
+  --bg: #FAF9FC;
+  --card: #FFFFFF;
+  --line: #E6E1EE;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #AE8BFF;
+    --accent-soft: #2A2238;
+    --text: #EDEAF2;
+    --muted: #A9A3B4;
+    --bg: #141217;
+    --card: #1E1B23;
+    --line: #34303C;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+.wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 56px; }
+header.site { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 28px; }
+header.site a.home { color: var(--text); text-decoration: none; font-weight: 700; }
+nav.app a { margin-left: 14px; font-size: 14px; }
+a { color: var(--accent); }
+h1 { font-size: 1.7rem; line-height: 1.35; margin: 0 0 8px; }
+h2 { font-size: 1.2rem; margin: 36px 0 8px; padding-left: 10px; border-left: 4px solid var(--accent); }
+h3 { font-size: 1.05rem; margin: 24px 0 6px; }
+p, li { overflow-wrap: anywhere; }
+ul, ol { padding-left: 1.4em; }
+.lead { color: var(--muted); margin-top: 0; }
+.card {
+  display: block; background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+  padding: 18px 20px; margin: 16px 0; color: var(--text); text-decoration: none;
+}
+a.card:hover { border-color: var(--accent); }
+.card .name { font-size: 1.2rem; font-weight: 700; }
+.card .sub { color: var(--muted); font-size: 0.95rem; }
+.pill { display: inline-block; background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 2px 12px; font-size: 0.85rem; font-weight: 600; }
+.links { list-style: none; padding: 0; }
+.links li { margin: 8px 0; }
+.links a { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; text-decoration: none; font-weight: 600; }
+details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; margin: 10px 0; }
+summary { cursor: pointer; font-weight: 600; }
+.contact { background: var(--accent-soft); border-radius: 16px; padding: 16px 20px; margin-top: 28px; }
+footer { margin-top: 48px; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--line); padding-top: 16px; }
