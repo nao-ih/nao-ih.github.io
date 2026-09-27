@@ -45,6 +45,9 @@ ul, ol { padding-left: 1.4em; }
 }
 a.card:hover { border-color: var(--accent); }
 .card .name { font-size: 1.2rem; font-weight: 700; }
+.app-icon { display: block; width: 64px; height: 64px; border-radius: 22.37%; box-shadow: 0 2px 8px rgba(0,0,0,0.12); }
+.app-icon.large { width: 96px; height: 96px; margin-bottom: 16px; }
+.card.app { display: flex; align-items: center; gap: 16px; }
 .card .sub { color: var(--muted); font-size: 0.95rem; }
 .pill { display: inline-block; background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 2px 12px; font-size: 0.85rem; font-weight: 600; }
 .links { list-style: none; padding: 0; }
