@@ -11,5 +11,9 @@ Naoya Iha が開発する iPhone アプリの公式ページ（GitHub Pages）�
 - `/walklean/privacy/` WalkLean のプライバシーポリシー
 - `/walklean/en/privacy/` WalkLean のプライバシーポリシー（英語）
 - `/walklean/support/` WalkLean のサポート
+- `/kimegoto/` Kimegoto の紹介
+- `/kimegoto/terms/` Kimegoto の利用規約
+- `/kimegoto/privacy/` Kimegoto のプライバシーポリシー
+- `/kimegoto/support/` Kimegoto のサポート
 
 利用規約・プライバシーポリシーの原稿は、アプリのリポジトリの `docs/legal/` で管理しています。
